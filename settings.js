@@ -16,8 +16,8 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94741262964",
-  SUDO_NUMBERS : "94742524402,94721262964",
+  OWNER_NUMBER: "94729720137",
+  SUDO_NUMBERS : "94742524402,94729720137",
   OWNER_NAME: "『 Darshana 』",
   BOT_NAME : "ＺＵＳＹＣＯ",
   ZUSYCO_FILE : "ZUSYCO-QR",
@@ -27,12 +27,12 @@ module.exports = {
     GOODBYE: 'https://i.ibb.co/t8hKpcM/GOODBYE-IMAGE-LOWQ.jpg'
   },
   STOP_SEND : {
-        WELCOME_MESSAGE : true,
-        GOODBYE_MESSAGE : true,
+        WELCOME_MESSAGE : false,
+        GOODBYE_MESSAGE : false,
     },
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
-  WORK_TYPE : "public",
+  WORK_TYPE : "private",
   WORK_MODE : "onlygroups",
   WORK_MODE_MESSAGE_SEND : false,
   CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
@@ -50,11 +50,11 @@ module.exports = {
   READ : {
      ALL_MESSAGES : true,
      ONLY_COMMANDS : false,
-     STATUS : false,
+     STATUS : true,
   },
   BOT_OFFLINE : false,
   INBOX_BLOCK : false,
-  AUTO_REACT : true,
+  AUTO_REACT : false,
   OWNER_REACT : '🤵‍♂️',
   AUTO_BGM : false,
   BGM : {
